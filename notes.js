@@ -54,6 +54,8 @@ var removeNote = (title) => {
 };
 
 var logNote = (noteRead) => {
+    /*jshint -W087 */
+    debugger;
     console.log('------------');
     console.log(`Title: ${noteRead.title}`);
     console.log(`Body: ${noteRead.body}`);
